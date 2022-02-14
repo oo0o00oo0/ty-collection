@@ -13,9 +13,9 @@ const camera = {
   position: [3, 2, 0],
 }
 
-const jumbo_text = "src/create/ty/textures/jumbo_text.jpg"
-const sampson_text = "src/create/ty/textures/sampson_text.jpg"
-const meshUrl = "src/create/ty/models/all.glb"
+const jumbo_text = "./textures/jumbo_text.jpg"
+const sampson_text = "./textures/sampson_text.jpg"
+const meshUrl = "./models/all.glb"
 
 function HandleLoad() {
   const setLoaded = useStore((state) => state.setLoaded)

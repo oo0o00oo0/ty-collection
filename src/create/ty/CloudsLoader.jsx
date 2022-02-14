@@ -1,7 +1,7 @@
 import { useGLTF } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
 import { useRef } from "react"
-const meshUrl = "src/create/ty/clouds/scene.gltf"
+const meshUrl = "./clouds/scene.gltf"
 
 function CloudsLoader() {
   const { nodes, materials } = useGLTF(meshUrl)
